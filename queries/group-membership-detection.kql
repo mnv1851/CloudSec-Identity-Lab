@@ -1,0 +1,7 @@
+AuditLogs
+| where OperationName == "Add member to group"
+| where tostring(TargetResources) has "employee1"
+| extend TargetUser = tostring(TargetResources[0].userPrincipalName)
+| extend InitiatedByUser = tostring(InitiatedBy.user.userPrincipalName)
+| extend InitiatedByIP = tostring(InitiatedBy.user.ipAddress)
+| project TimeGenerated, OperationName, TargetUser, InitiatedByUser, InitiatedByIP, Result
