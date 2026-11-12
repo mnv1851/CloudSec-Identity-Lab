@@ -1,4 +1,4 @@
-# CloudSec Identity Lab  
+# CloudSecurity Identity Lab  
 ## Microsoft Entra ID + Microsoft Sentinel Identity Detection & Response Project
 
 ## Overview
