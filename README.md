@@ -30,10 +30,11 @@ The lab follows this detection pipeline:
 **Microsoft Entra ID → Audit Logs → Log Analytics Workspace → Microsoft Sentinel → KQL Analytics Rules → Microsoft Defender Alerts/Cases → SOC Investigation**
 
 ### Architecture Diagram
-
-> Add architecture diagram here.
-
-`/images/cloudsec-identity-lab-architecture.png`
+<p align="center">
+  <img src="architecture/CloudSecIdentityLabArchitecture.png"
+       alt="CloudSec Identity Lab Architecture"
+       width="1100">
+</p>
 
 The environment contains three primary identities:
 
