@@ -33,7 +33,7 @@ The lab follows this detection pipeline:
 <p align="center">
   <img src="architecture/CloudSecIdentityLabArchitecture.png"
        alt="CloudSec Identity Lab Architecture"
-       width="1100">
+       width="500">
 </p>
 
 The environment contains three primary identities:
