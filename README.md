@@ -568,7 +568,16 @@ Budget alerts were configured to warn when spending approached configured thresh
 
 This added an additional cloud-governance layer to the project and demonstrated awareness of operational cost management.
 
-> **Screenshot:** Azure budget configuration.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-08 223021.png"
+       width="750">
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-08 223034.png"
+       width="750">
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-08 223605.png"
+       width="750">
+> Azure budget configuration.
 
 ---
 
@@ -734,8 +743,6 @@ CloudSec-Identity-Lab/
 This project was created in a controlled educational lab environment.
 
 All users, role assignments, group changes, alerts, and incidents shown in this repository were intentionally generated for learning, testing, and demonstration purposes.
-
-Sensitive information such as credentials, authentication secrets, subscription identifiers, tenant identifiers, and unnecessary personal information should be removed or redacted from screenshots before publication.
 
 ---
 
