@@ -89,7 +89,21 @@ Examples included:
 
 Employee One was added to the Sales group, while Security Analyst One was added to the Security Analysts group.
 
-> **Screenshot:** Entra ID users and groups.
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-01 215259.png"
+       width="750">
+</p>
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-01 220337.png"
+       width="750">
+</p>
+</p>
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-01 223548.png"
+       width="750">
+</p>
 
 ---
 
@@ -117,9 +131,17 @@ This demonstrates an important cloud-security concept:
 
 The analyst therefore received only the permissions required for SOC operations.
 
-> **Screenshot:** Security Reader assignment.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-01 224127.png"
+       width="750">
+</p>
+>Security Reader assignment.
 
-> **Screenshot:** Microsoft Sentinel Responder role assignment.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-01 224705.png"
+       width="750">
+</p> 
+> Microsoft Sentinel Responder role assignment.
 
 ---
 
@@ -131,7 +153,11 @@ The objective was to strengthen authentication security while demonstrating iden
 
 Authentication activity was also visible within Microsoft Entra audit logs.
 
-> **Screenshot:** MFA registration or authentication method configuration.
+<p align="center">
+  <img src="screenshots/enable-azure-mfa-browser-prompt.png"
+       width="750">
+</p> 
+> MFA registration or authentication method configuration.
 
 ---
 
@@ -156,7 +182,11 @@ AuditLogs
 | order by TimeGenerated desc
 ```
 
-> **Screenshot:** AuditLogs returning Entra events.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-01 230835.png"
+       width="750">
+</p> 
+> AuditLogs returning Entra events.
 
 ---
 
@@ -233,7 +263,11 @@ The improved query extracted the most useful investigation fields:
 - Result
 - Timestamp
 
-> **Screenshot:** Tuned KQL query results.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-09 212506.png"
+       width="750">
+</p> 
+> Tuned KQL query results.
 
 ---
 
@@ -266,8 +300,17 @@ Enabled
 
 The 10-minute lookback was selected after observing several minutes of ingestion delay between the original Entra event and its arrival in Log Analytics.
 
-> **Screenshot:** Analytics rule configuration.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-03 141440.png"
+       width="750">
+</p> 
 
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-03 160217.png"
+       width="750">
+</p> 
+
+> Analytics rule configuration.
 ---
 
 # Incident Investigation 1
@@ -295,11 +338,23 @@ The incident was then resolved.
 
 **Detection → Alert → Incident → Analyst Review → Classification → Resolution**
 
-> **Screenshot:** Group membership alert.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-03 161746.png"
+       width="750">
 
-> **Screenshot:** Incident investigation details.
+> Group membership alert.
 
-> **Screenshot:** Closed/resolved case.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-09 212937.png"
+       width="750">
+
+> Incident investigation details.
+
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-09 213346.png"
+       width="750">
+
+>  Closed/resolved case.
 
 ---
 
@@ -322,6 +377,10 @@ The resulting Entra audit event appeared as:
 with the category:
 
 `RoleManagement`
+
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-09 214740.png"
+       width="750">
 
 ### Discovery Query
 
@@ -360,10 +419,6 @@ AuditLogs
           Result
 ```
 
-> **Screenshot:** RoleManagement KQL result.
-
----
-
 # Analytics Rule 2 – Privileged Entra Role Assignment
 
 A second scheduled analytics rule was created.
@@ -394,7 +449,10 @@ More than 0 results
 **Incident Creation:**  
 Enabled
 
-> **Screenshot:** Second analytics rule enabled in Sentinel.
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-10 121031.png"
+       width="750">
+> Second analytics rule enabled in Sentinel.
 
 ---
 
@@ -417,9 +475,16 @@ The incident was investigated and classified as expected activity because the ro
 
 The case was then closed.
 
-> **Screenshot:** Privileged role assignment alert.
+
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-10 122418.png"
+       width="750">
 
 > **Screenshot:** Investigation fields.
+
+<p align="center">
+  <img src="screenshots/Screenshot 2026-11-10 124640.png"
+       width="750">
 
 > **Screenshot:** Closed Case ID 6.
 
